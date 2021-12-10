@@ -23,7 +23,10 @@ class _LoggedInPageState extends State<LoggedInPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Home'),
+        title: Text(
+          'Home',
+          style: TextStyle(fontSize: 14.0),
+        ),
         actions: [
           IconButton(
               onPressed: () async {
